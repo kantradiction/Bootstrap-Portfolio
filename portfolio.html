@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta charset="UTF-8">
+		<title>Andrew Presnell Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		<script src="https://use.fontawesome.com/00af40f08a.js"></script>
 	</head>
 	<body>
-		<section id="header-nav">
-			<div id="nav-bar">
-				<div id="logo">
-					<a href="index.html">Andrew Presnell</a>
-				</div>
-				<div id="navigation">
-					<ul>
-						<li><a href="index.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</section>
+		<nav class="navbar navbar-default">
+		  <div class="container nav-bar">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header" id="logo">
+		      <a class="navbar-brand" href="index.html">Andrew Presnell</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="index.html">About Me</a></li>
+		        <li><a href="portfolio.html">Portfolio</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 		<section id="body-content">
-			<div id="portfolio">
-				<h1>Portfolio</h1>
-				<div class="portfolio-item">
-					<img src="assets/images/cats-q-c-480-480-8.jpg" alt="Funny Cat" class="portfolio-image">
-					<div class="portfolio-title">
-						<a href="#">Hangman</a>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-7" id="portfolio">
+						<h1>Portfolio</h1>
+						<div class="portfolio-item col-sm-12 col-md-6">
+							<img src="assets/images/cats-q-c-480-480-8.jpg" alt="Funny Cat" class="portfolio-image">
+							<div class="portfolio-title col-md-12">
+								<a href="#">Hangman</a>
+							</div>
+						</div>
+						<div class="portfolio-item col-sm-12 col-md-6">
+							<img src="assets/images/technics-q-c-480-480-3.jpg" alt="Laptop" class="portfolio-image">
+							<div class="portfolio-title col-md-12">
+								<a href="#">RPG Game</a>
+							</div>
+						</div>
+						<div class="portfolio-item col-sm-12 col-md-6">
+							<img src="assets/images/technics-q-c-480-480-6.jpg" alt="Sony Headphones" class="portfolio-image">
+							<div class="portfolio-title col-md-12">
+								<a href="#">Trivia Game</a>
+							</div>
+						</div>
+						<div class="portfolio-item col-sm-12 col-md-6">
+							<img src="assets/images/technics-q-c-480-480-7.jpg" alt="Earbuds" class="portfolio-image">
+							<div class="portfolio-title col-md-12">
+								<a href="#">Rutgers Info Widget</a>
+							</div>
+						</div>
+						<div class="portfolio-item col-sm-12 col-md-6">
+							<img src="assets/images/technics-q-c-480-480-9.jpg" alt="LED TV" class="portfolio-image">
+							<div class="portfolio-title col-md-12">
+								<a href="#">Rock Paper Scissors</a>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="portfolio-item float-right">
-					<img src="assets/images/technics-q-c-480-480-3.jpg" alt="Laptop" class="portfolio-image">
-					<div class="portfolio-title">
-						<a href="#">RPG Game</a>
-					</div>
-				</div>
-				<div class="portfolio-item">
-					<img src="assets/images/technics-q-c-480-480-6.jpg" alt="Sony Headphones" class="portfolio-image">
-					<div class="portfolio-title">
-						<a href="#">Trivia Game</a>
-					</div>
-				</div>
-				<div class="portfolio-item float-right">
-					<img src="assets/images/technics-q-c-480-480-7.jpg" alt="Earbuds" class="portfolio-image">
-					<div class="portfolio-title">
-						<a href="#">Rutgers Info Widget</a>
-					</div>
-				</div>
-				<div class="portfolio-item">
-					<img src="assets/images/technics-q-c-480-480-9.jpg" alt="LED TV" class="portfolio-image">
-					<div class="portfolio-title">
-						<a href="#">Rock Paper Scissors</a>
-					</div>
+					<aside class="col-sm-12 col-md-4 pull-right" id="connect-with-me">
+						<h2>Connect with Me</h2>
+						<ul>
+							<li><a href="https://github.com/kantradiction"><img src="assets/images/if_github_square_black_107109.png" alt=""></a></li>
+							<li><a href="https://www.linkedin.com/in/andrew-presnell-739bb02b/"><img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn"></a></li>
+							<li><a href="https://stackoverflow.com/users/8261630/kantradiction"><img src="assets/images/if_stackoverflow_273179.png" alt="Stack Overflow"></a></li>
+						</ul>
+					</aside>
 				</div>
 			</div>
-			<aside id="connect-with-me">
-				<h2>Connect with Me</h2>
-				<ul>
-					<li><a href="https://github.com/kantradiction"><img src="assets/images/if_github_square_black_107109.png" alt=""></a></li>
-					<li><a href="https://www.linkedin.com/in/andrew-presnell-739bb02b/"><img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn"></a></li>
-					<li><a href="https://stackoverflow.com/users/8261630/kantradiction"><img src="assets/images/if_stackoverflow_273179.png" alt="Stack Overflow"></a></li>
-				</ul>
-			</aside>
 		</section>
 		<section id="footer">
 			<div id="footer-content">

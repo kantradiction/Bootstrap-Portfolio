@@ -7,6 +7,7 @@ html,body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', 'Georgia', Times, 'Times New Roman', serif;
+	padding: 15px 0 15px;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
 
 p, span {
 	color: #777777;
+	padding: 0 15px 0 15px;
 }
 
 
@@ -32,6 +34,18 @@ p, span {
 	height: 100px;
 	background-color: #ffffff;
 	margin: 0 150px;
+}
+
+.navbar {
+	margin-bottom: 0!important;
+}
+
+.navbar-brand {
+	line-height: 66px!important;
+}
+
+.navbar-nav>li>a {
+	line-height: 70px!important;
 }
 
 #logo {
@@ -84,13 +98,12 @@ p, span {
 
 /* INDEX.HTML CSS */ 
 #about-me {
-	width:650px;
 	/*width:35%;*/
-	margin-left: 150px;
 	background-color: #ffffff;
-	padding: 50px;
+	padding: 25px;
 	display: inline-block;
 	border: 1px solid #dddddd;
+	margin-bottom: 25px;
 }
 
 #about-me h1 {
@@ -99,9 +112,8 @@ p, span {
 }
 
 #about-me img {
-	width: 300px;
-	float: left;	
-	margin-right: 15px;
+	width: 100%;
+	padding-left: 0;
 }
 
 #about-me p {
@@ -109,12 +121,8 @@ p, span {
 }
 
 #connect-with-me {
-	float: right;
-	clear: both;
-	margin-right: 250px;
 	background-color: #ffffff;
-	padding: 50px;
-	width: 270px;
+	padding: 25px;
 	border: 1px solid #dddddd;
 }
 
@@ -140,19 +148,16 @@ p, span {
 
 /* PORTFOLIO CSS */
 #portfolio {
-	width:650px;
 	/*width:35%;*/
-	margin-left: 150px;
 	background-color: #ffffff;
 	padding: 50px;
 	display: inline-block;
 	border: 1px solid #dddddd;
+	margin-bottom: 25px;
 }
 
 .portfolio-item {
 	display: inline-block;
-	width: 275px;
-	height: 275px;
 	position: relative;
 	margin-bottom: 30px;
 }
@@ -189,14 +194,11 @@ float: right;
 /*CONTACT CSS*/
 
 #contact {
-
-	width:650px;
-	/*width:35%;*/
-	margin-left: 150px;
 	background-color: #ffffff;
 	padding: 50px;
 	display: inline-block;
 	border: 1px solid #dddddd;
+	margin-bottom: 25px;
 }
 
 #contact h1 {

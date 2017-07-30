@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta charset="UTF-8">
+		<title>Andrew Presnell Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		<script src="https://use.fontawesome.com/00af40f08a.js"></script>
 	</head>
 	<body>
-		<section id="header-nav">
-			<div id="nav-bar">
-				<div id="logo">
-					<a href="index.html">Andrew Presnell</a>
-				</div>
-				<div id="navigation">
-					<ul>
-						<li><a href="index.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</section>
+		<nav class="navbar navbar-default">
+		  <div class="container nav-bar">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header" id="logo">
+		      <a class="navbar-brand" href="index.html">Andrew Presnell</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="index.html">About Me</a></li>
+		        <li><a href="portfolio.html">Portfolio</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 		<section id="body-content">
-			<div id="contact">
-				<h1>Contact</h1>
-				<form action="">
-					Name<br>
-					<input type="text" name="name"><br>
-					Email<br>
-					<input type="text" name="email"><br>
-					Message<br>
-					<textarea name="message" rows="10" cols="30"></textarea><br>
-					<input type="submit"><br>
-				</form>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-7" id="contact">
+						<h1>Contact</h1>
+						<form action="">
+							Name<br>
+							<input type="text" name="name"><br>
+							Email<br>
+							<input type="text" name="email"><br>
+							Message<br>
+							<textarea name="message" rows="10" cols="30"></textarea><br>
+							<input type="submit"><br>
+						</form>
+					</div>
+					<aside class="col-sm-12 col-md-4 pull-right" id="connect-with-me">
+						<h2>Connect with Me</h2>
+						<ul>
+							<li><a href="https://github.com/kantradiction"><img src="assets/images/if_github_square_black_107109.png" alt=""></a></li>
+							<li><a href="https://www.linkedin.com/in/andrew-presnell-739bb02b/"><img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn"></a></li>
+							<li><a href="https://stackoverflow.com/users/8261630/kantradiction"><img src="assets/images/if_stackoverflow_273179.png" alt="Stack Overflow"></a></li>
+						</ul>
+					</aside>
+				</div>
 			</div>
-			<aside id="connect-with-me">
-				<h2>Connect with Me</h2>
-				<ul>
-					<li><a href="https://github.com/kantradiction"><img src="assets/images/if_github_square_black_107109.png" alt=""></a></li>
-					<li><a href="https://www.linkedin.com/in/andrew-presnell-739bb02b/"><img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn"></a></li>
-					<li><a href="https://stackoverflow.com/users/8261630/kantradiction"><img src="assets/images/if_stackoverflow_273179.png" alt="Stack Overflow"></a></li>
-				</ul>
-			</aside>
 		</section>
 		<section id="footer">
 			<div id="footer-content">
